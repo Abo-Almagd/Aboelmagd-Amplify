@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="موقع شخصي بسيط — HTML و CSS" />
+  <title>نورا | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">نورا<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">عني</a></li>
+        <li><a href="#skills">المهارات</a></li>
+        <li><a href="#contact">تواصل</a></li>
+      </ul>
+      <button class="menu-btn" aria-label="القائمة" id="menuBtn">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow--1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow--2" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="badge">مرحباً بك 👋</p>
+        <h1>أنا <span class="gradient-text">نورا</span><br />مطورة ويب مبتدئة</h1>
+        <p class="hero-desc">
+          موقع بسيط مبني بـ HTML و CSS فقط — مناسب للنشر على
+          <strong>GitHub</strong> و <strong>AWS Amplify</strong>.
+        </p>
+        <div class="hero-actions">
+          <a href="#about" class="btn btn-primary">اعرف أكثر</a>
+          <a href="#contact" class="btn btn-outline">تواصل معي</a>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">مشاريع</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num">HTML</span>
+            <span class="stat-label">و CSS</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">شغف للتعلم</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-card">
+          <div class="about-icon">💡</div>
+          <h2>عني</h2>
+          <p>
+            أتعلم تطوير الويب وأبني مشاريع صغيرة خطوة بخطوة.
+            هذا الموقع جزء من تمرين النشر على السحابة باستخدام Amplify.
+          </p>
+        </div>
+        <div class="about-visual">
+          <div class="code-window">
+            <div class="code-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <pre><code><span class="tag">&lt;html&gt;</span>
+  <span class="tag">&lt;head&gt;</span>
+    <span class="tag">&lt;title&gt;</span>نورا<span class="tag">&lt;/title&gt;</span>
+  <span class="tag">&lt;/head&gt;</span>
+  <span class="tag">&lt;body&gt;</span>
+    <span class="comment">/* مرحباً بالعالم */</span>
+  <span class="tag">&lt;/body&gt;</span>
+<span class="tag">&lt;/html&gt;</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">المهارات</h2>
+        <p class="section-subtitle">أدوات وتقنيات أعمل عليها حالياً</p>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">🌐</span>
+            <h3>HTML5</h3>
+            <p>هيكل الصفحات والمحتوى الدلالي</p>
+            <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">🎨</span>
+            <h3>CSS3</h3>
+            <p>تصميم responsive وتأثيرات حديثة</p>
+            <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">☁️</span>
+            <h3>AWS Amplify</h3>
+            <p>نشر تلقائي من GitHub</p>
+            <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">📦</span>
+            <h3>Git & GitHub</h3>
+            <p>إدارة الإصدارات والتعاون</p>
+            <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-box">
+        <h2>تواصل معي</h2>
+        <p>جاهزة للتعاون على مشاريع تعليمية أو شخصية.</p>
+        <a href="mailto:hello@example.com" class="btn btn-primary">hello@example.com</a>
+        <p class="deploy-note" id="version">الإصدار: v1.0 — أول نشر على Amplify</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 نورا — صُنع بـ HTML & CSS</p>
+      <p class="footer-host">مستضاف على AWS Amplify</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtn').addEventListener('click', function () {
+      document.querySelector('.nav-links').classList.toggle('open');
+      this.classList.toggle('active');
+    });
+    document.querySelectorAll('.nav-links a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.querySelector('.nav-links').classList.remove('open');
+        document.getElementById('menuBtn').classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
