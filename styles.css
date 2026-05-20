@@ -4,16 +4,16 @@
   --bg: #faf6f0;
   --bg-muted: #f0e8dc;
   --surface: #fff8ee;
-  --text: #2c1810;
-  --text-muted: #5c4030;
-  --primary: #c4783a;
-  --primary-light: #e8a55c;
-  --primary-dark: #4a2c1a;
-  --dark: #2c1810;
-  --dark-soft: #4a2c1a;
-  --accent: #e8a55c;
-  --border: rgba(44, 24, 16, 0.1);
-  --shadow: rgba(44, 24, 16, 0.12);
+  --text: #11202b;
+  --text-muted: #3f5565;
+  --primary: #14998f;
+  --primary-light: #4acdc2;
+  --primary-dark: #0f6f67;
+  --dark: #11202b;
+  --dark-soft: #234252;
+  --accent: #14998f;
+  --border: rgba(17, 32, 43, 0.1);
+  --shadow: rgba(17, 32, 43, 0.12);
   --radius: 18px;
   --font-body: "DM Sans", system-ui, sans-serif;
   --font-display: "Fraunces", Georgia, serif;
@@ -95,7 +95,7 @@ ul {
   height: 10px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--primary), var(--primary-light));
-  box-shadow: 0 0 0 4px rgba(196, 120, 58, 0.25);
+  box-shadow: 0 0 0 4px rgba(20, 153, 143, 0.25);
 }
 
 .nav-menu {
@@ -134,7 +134,7 @@ ul {
 .btn:hover {
   background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(196, 120, 58, 0.35);
+  box-shadow: 0 8px 24px rgba(20, 153, 143, 0.35);
 }
 
 .btn-sm {
@@ -199,8 +199,8 @@ ul {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 20% 80%, rgba(196, 120, 58, 0.15), transparent 45%),
-    radial-gradient(circle at 85% 20%, rgba(74, 44, 26, 0.08), transparent 40%);
+    radial-gradient(circle at 20% 80%, rgba(20, 153, 143, 0.15), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(35, 66, 82, 0.08), transparent 40%);
   pointer-events: none;
 }
 
@@ -388,7 +388,7 @@ ul {
 }
 
 .menu-card--featured {
-  background: linear-gradient(145deg, rgba(196, 120, 58, 0.35), rgba(255, 255, 255, 0.08));
+  background: linear-gradient(145deg, rgba(20, 153, 143, 0.35), rgba(255, 255, 255, 0.08));
   border-color: var(--primary-light);
 }
 
@@ -445,8 +445,8 @@ ul {
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle at 25% 35%, rgba(196, 120, 58, 0.2) 0%, transparent 50%),
-    radial-gradient(circle at 75% 65%, rgba(74, 44, 26, 0.15) 0%, transparent 45%);
+    radial-gradient(circle at 25% 35%, rgba(20, 153, 143, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 75% 65%, rgba(35, 66, 82, 0.15) 0%, transparent 45%);
 }
 
 .about-panel blockquote {
