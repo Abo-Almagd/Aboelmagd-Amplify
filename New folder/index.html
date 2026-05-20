@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abu El-Majd Coffee — specialty coffee and a calm workspace" />
+  <title>Abu El-Majd Coffee Co. · Teal Theme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav wrap">
+      <a href="#" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Abu El-Majd
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-sm">Reserve a table</a>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Specialty coffee · Est. 2026</p>
+          <h1>Great coffee.<br /><em>Zero compromise.</em></h1>
+          <p class="lead">
+            Small-batch roasts, fresh pastries, and a quiet space built for focus
+            and meetups. A static HTML/CSS demo — ready to deploy on AWS Amplify.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn">View menu</a>
+            <a href="#about" class="btn btn-ghost">Our story</a>
+          </div>
+          <ul class="hero-perks">
+            <li>Espresso bar</li>
+            <li>Fresh bakes daily</li>
+            <li>Free Wi‑Fi</li>
+          </ul>
+        </div>
+        <aside class="hero-card" aria-label="Featured drink">
+          <div class="cup" aria-hidden="true">
+            <div class="cup-body"></div>
+            <div class="cup-handle"></div>
+            <div class="cup-foam"></div>
+          </div>
+          <p class="card-label">Drink of the day</p>
+          <p class="card-title">Salted caramel cappuccino</p>
+          <p class="card-price">$5.50</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Menu</p>
+          <h2>Pick your pour</h2>
+          <p class="section-desc">Handcrafted drinks and bites — prices in USD for demo purposes.</p>
+        </header>
+        <div class="menu-grid">
+          <article class="menu-card menu-card--featured">
+            <span class="badge">Best seller</span>
+            <h3>Vanilla latte</h3>
+            <p>Steamed milk, natural vanilla, double espresso shot.</p>
+            <span class="price-tag">$6.00</span>
+          </article>
+          <article class="menu-card">
+            <h3>Turkish coffee</h3>
+            <p>Slow-brewed with cardamom — served traditional style.</p>
+            <span class="price-tag">$4.00</span>
+          </article>
+          <article class="menu-card">
+            <h3>Iced mocha</h3>
+            <p>Dark chocolate, cold milk, crushed ice.</p>
+            <span class="price-tag">$5.75</span>
+          </article>
+          <article class="menu-card">
+            <h3>Butter croissant</h3>
+            <p>Baked every morning — flaky outside, soft inside.</p>
+            <span class="price-tag">$3.50</span>
+          </article>
+          <article class="menu-card">
+            <h3>Mint green tea</h3>
+            <p>Light and refreshing — perfect after lunch.</p>
+            <span class="price-tag">$3.25</span>
+          </article>
+          <article class="menu-card">
+            <h3>Strawberry smoothie</h3>
+            <p>Fresh berries, yogurt, and wildflower honey.</p>
+            <span class="price-tag">$5.00</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="wrap about-grid">
+        <div class="about-panel">
+          <div class="about-pattern" aria-hidden="true"></div>
+          <blockquote>
+            “Good coffee brings people together — a good space brings them back.”
+          </blockquote>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">About us</p>
+          <h2>From a simple idea to a neighborhood spot</h2>
+          <p>
+            Abu El-Majd Coffee started as a passion project: serve honest,
+            high-quality coffee without the fuss. Every cup is pulled with care.
+          </p>
+          <p>
+            Built by <strong>Mohammed Abu El-Majd</strong> as a coursework project —
+            hosted on GitHub and deployed with AWS Amplify CI/CD.
+          </p>
+          <ul class="metrics">
+            <li><strong>12+</strong><span>drink options</span></li>
+            <li><strong>7</strong><span>days a week</span></li>
+            <li><strong>100%</strong><span>coffee obsessed</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow">Visit us</p>
+          <h2>Open daily</h2>
+          <ul class="info-list">
+            <li><span aria-hidden="true">📍</span> 12 Example Street, Cairo, Egypt</li>
+            <li><span aria-hidden="true">🕐</span> 8:00 AM – 11:00 PM</li>
+            <li><span aria-hidden="true">📞</span> +20 100 000 0000</li>
+          </ul>
+        </div>
+        <form class="contact-form" onsubmit="return false;">
+          <h3>Quick message</h3>
+          <label>
+            <span>Name</span>
+            <input type="text" placeholder="Mohammed" />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea rows="3" placeholder="Table for 4 on Saturday…"></textarea>
+          </label>
+          <button type="submit" class="btn btn-full">Send (demo only)</button>
+          <p class="version" id="version">Release v1.0 · Teal theme</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>© 2026 Abu El-Majd Coffee Co. · Mohammed Abu El-Majd</p>
+      <p>Hosted on AWS Amplify</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('burger').addEventListener('click', function () {
+      document.getElementById('navMenu').classList.toggle('open');
+      this.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-menu a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.getElementById('navMenu').classList.remove('open');
+        document.getElementById('burger').classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>
